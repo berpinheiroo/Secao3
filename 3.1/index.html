@@ -12,13 +12,13 @@
 <body>
     <form id="form">
         <div class="shopForm">
-            <div class="formSection" style="order: 1;">Nome:
+            <div class="formSection" style="grid-area: i1;">Nome:
                 <input id="name" type="text">
             </div>
-            <div class="formSection" style="order: 2;">Endereço:
+            <div class="formSection" style="grid-area: i2;">Endereço:
                 <input id="adress" type="text">
             </div>
-            <div class="formSection" style="order: 3;">Dias em que há funcionamento:
+            <div class="formSection" style="grid-area: i3;">Dias em que há funcionamento:
                 <div>
                     <input id="days" type="checkbox">Segunda<br>
                     <input id="days" type="checkbox">Terça<br>
@@ -28,16 +28,17 @@
                     <input id="days" type="checkbox">Domingo<br>
                 </div>
             </div>
-            <div class="formSection" style="order: 4;">Horário de abertura:
+            <div class="formSection" style="grid-area: i4;">Horário de abertura:
                 <input id="opening" type="text">
             </div>
-            <div class="formSection" style="order: 5;">Horário de fechamento:
+            <div class="formSection" style="grid-area: i5;">Horário de fechamento:
                 <input id="closure" type="text">
             </div>
         </div>
     </form>
     <div class="buttons">
-        <button id="direction" type="button">Mudar distribuição</button>
+        <button id="btnDirection" type="button">Mudar distribuição</button>
+        <button id="btnGrid" type="button">Mudar para grid</button>
     </div>
 </body>
 <script src="script.js"></script>
